@@ -1,6 +1,7 @@
 {
   "index": "Introduction",
   "another": "Another Page",
+  "regexp": "Regexp",
   "advanced": "Advanced (A Folder)",
   "about": {
     "title": "About",

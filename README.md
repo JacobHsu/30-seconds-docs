@@ -1,4 +1,6 @@
-# Nextra Docs Template 
+# Javascript Snippets
+
+[30-seconds-of-code](https://github.com/30-seconds/30-seconds-of-code/tree/master/snippets)
 
 This is a template for creating documentation with [Nextra](https://nextra.site).
 
