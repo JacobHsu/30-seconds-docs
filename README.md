@@ -8,6 +8,10 @@ This is a template for creating documentation with [Nextra](https://nextra.site)
 
 [![](.github/screenshot.png)](https://nextra-docs-template.vercel.app)
 
+## References
+
+mdx-js / [vscode-mdx](https://github.com/mdx-js/vscode-mdx)
+
 ## Quick Start
 
 Click the button to clone this repository and deploy it on Vercel:
