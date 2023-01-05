@@ -8,6 +8,10 @@ This is a template for creating documentation with [Nextra](https://nextra.site)
 
 [![](.github/screenshot.png)](https://nextra-docs-template.vercel.app)
 
+## nextjs
+
+[basic-features/script](https://nextjs.org/docs/basic-features/script)
+
 ## References
 
 mdx-js / [vscode-mdx](https://github.com/mdx-js/vscode-mdx)
