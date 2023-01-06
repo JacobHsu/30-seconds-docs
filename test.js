@@ -1,10 +1,10 @@
-const indexBy = (arr, fn) =>
-  arr.reduce((obj, v, i) => {
-    obj[fn(v, i, arr)] = v;
-    return obj;
-  }, {});
+const indexOfAll = (arr, val) => {
+  const fn = (acc, el, i) => {
+    // console.log(el, val, acc);
+    return el === val ? [...acc, i] : acc;
+  };
+  return arr.reduce(fn, []);
+};
 
-indexBy([
-    { id: 10, name: 'apple' },
-    { id: 20, name: 'orange' }
-  ], x => x.id)
+const res = indexOfAll([1, 2, 3, 1, 2, 3], 1);
+console.log('res:', res);
