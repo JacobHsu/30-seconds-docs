@@ -8,3 +8,5 @@ const indexOfAll = (arr, val) => {
 
 const res = indexOfAll([1, 2, 3, 1, 2, 3], 1);
 console.log('res:', res);
+
+el === val ? [...acc, i] : acc
