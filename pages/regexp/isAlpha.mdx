@@ -1,0 +1,29 @@
+# String is alpha
+
+Checks if a string contains only alpha characters.
+
+- Use `RegExp.prototype.test()` to check if the given string matches against the alphabetic regexp pattern.
+
+```js
+const isAlpha = str => /^[a-zA-Z]*$/.test(str);
+```
+
+## Example
+
+import Embed from 'runkit-embed-react';
+
+export const Demo = () => {
+  const code = `
+const isAlpha = str => /^[a-zA-Z]*$/.test(str);
+isAlpha('sampleInput'); // true
+isAlpha('this Will fail'); // false
+  `
+  return (
+    <div>
+      <Embed source={code} />
+    </div>
+  );
+};
+
+<Demo/>
+
